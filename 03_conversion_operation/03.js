@@ -15,3 +15,4 @@ console.log(user2)
 let valuescore=6000
 ++valuescore;// 6000 me 1 incriment ho jayega.
 console.log(valuescore)
+console.log(user)
