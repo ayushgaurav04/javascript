@@ -6,7 +6,7 @@ console.log(otherscore.toString());
 console.log(typeof (otherscore.toString()));
 console.log(otherscore.toFixed(1));// to fixed decimal value ko add karta hai. 
 let decimalvalue= 123.4569
-console.log(decimalvalue.toPrecision(6));
+console.log(`i am the precision value ${decimalvalue.toPrecision(6)}`);
 const hundreds = 100000
 console.log(hundreds);
 console.log(hundreds.toLocaleString('en-IN'))// this will change the nuber to the indian number system
