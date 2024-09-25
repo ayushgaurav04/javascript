@@ -1,5 +1,5 @@
 // this is about the objects
-let Tinderuser = new Object();// this is the single term object
+let Tinderuser = new Object();// this is the single term object declare method
 console.log(Tinderuser);
 Tinderuser.id="ayush04"
 Tinderuser.name="Ayush"

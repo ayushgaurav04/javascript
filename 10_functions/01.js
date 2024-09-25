@@ -3,7 +3,7 @@ function addnumbers (number1,number2){
 console.log(number1+number2);
 }
 const result=addnumbers(1,1)// this is the execution of the file
-console.log(result);// but the problem is that the value of the result is undefined
+console.log(`the result is ${result}`)// but the problem is that the value of the result is undefined
 
 // solving the above problem
 function addtwonumbers(number3, number4){

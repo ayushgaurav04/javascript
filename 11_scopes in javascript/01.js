@@ -33,7 +33,7 @@ function addone(num){
     return num + 1
     
 }
-console.log(addone(5))
+console.log(addone(5));
 
 
 
