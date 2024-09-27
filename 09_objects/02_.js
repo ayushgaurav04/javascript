@@ -45,7 +45,8 @@ console.log (myobj[1].name)
 // console.log (Object.values(myobj))
 // console.log (Object.keys(myobj))
 // console.log (Object.entries(myobj))
-console.log(Object.values(Tinderuser))// this will give the values 
+console.log(Object.values(Tinderuser))// this will give the values
+console.log("i  am the keys") 
 console.log(Object.keys(Tinderuser))// this will give the keys 
 console.log(Object.entries(Tinderuser))// it will conver the values in the array form
 console.log(Tinderuser.hasOwnProperty('name'))// this will give the bollean type of the value as the output.(this will that in an object the particular values exist or not)
