@@ -1,10 +1,11 @@
-// it all about the loops in the javascript
-let sum=0;
-let n = prompt("Enter the value of the number : ")
-n = Number.parseInt(n)
-for(let i=1 ; i<n ; i++) {
-sum+=(i+1);
+const prompt = require('prompt-sync')();  // Import prompt-sync
 
+let sum = 0;
+let n = prompt("Enter the value of the number: ");
+n = Number.parseInt(n);
 
+for (let i = 1; i <= n; i++) {
+    sum += i;
 }
-console.log(`sum of the first ${n} and the natural number is ${sum}`)
+
+console.log(`The sum of the first ${n} natural numbers is ${sum}`);

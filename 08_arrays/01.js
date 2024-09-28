@@ -4,7 +4,7 @@ console.log(myArr)
 let Heros=["hero","shaktiman","krrish","Raone"]
 console.log(Heros)
 let newarr = new Array(1,2,3)// way to declare the array
-console.log(newarr)
+console.log(`i am the new array ${newarr}`)
 // console.log(myArr.push(5))
 myArr.push(5)// push is used to add the value in the array
 myArr.pop()// pop is used to rmove the value in the array
