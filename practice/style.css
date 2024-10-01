@@ -1,0 +1,22 @@
+*{
+    margin: 0;padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.box_container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.box_container .box1{
+    height: 200px;
+    width: 200px ;
+    border: 1px solid white;
+    cursor: pointer;
+}

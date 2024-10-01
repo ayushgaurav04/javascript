@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.main{
+    color: wheat
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+header nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding: 0vw 5vw;
+   height: 10vh;
+   background-color: rgb(49, 50, 50);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+ nav a{
+    color: white;
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    /* height: 30vh; */
+    background-color: red;
+    margin-top: 10vh;
+    padding: 2vw 2vw;
+}
+.boxes .bpx1{
+    height: 30vh;
+    width: 10vw;
+    border: 1px solid white
+}
