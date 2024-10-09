@@ -1,0 +1,18 @@
+.main{
+    /* height: 300px; */
+    width: 500px;
+    padding: 50px 50px;
+    border: 8px solid green;
+}
+.container{
+    /* height: 75%; */
+    /* width: 75%; */
+    padding: 50px 50px;
+    border: 5px solid rgb(128, 98, 0);
+}
+.text{
+    /* height: 75%;
+    width: 75%; */
+    padding: 50px 50px;
+    border: 6px solid rgb(0, 85, 128);
+}
