@@ -16,7 +16,7 @@
 //LETS SEE ABOUT THE FETCH API
 async function getdata(){
   let y = await  fetch('https://jsonplaceholder.typicode.com/todos/1')
-  let data = await y.json()
+  let data = await y.json()// note fetch api ko do bar await karke pass karna padata hai
   console.log(data)
   return 456;
 }
